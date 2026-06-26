@@ -10,6 +10,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/react-plugin' // або ваш фреймворк
 
 export default defineConfig({
-  base: '/todolist/', 
+  base: '/toDoList/', 
   plugins: [react()],
 })
